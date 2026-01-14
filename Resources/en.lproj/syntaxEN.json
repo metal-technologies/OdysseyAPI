@@ -1,0 +1,582 @@
+{
+	"_method_": {},
+	"cs.OdysseyAPI": {
+		"addRecord": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Object )",
+				"Params": [
+					[
+						"settings",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"enterScrap": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Object )",
+				"Params": [
+					[
+						"settings",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"companies": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Object )",
+				"Params": [
+					[
+						"settings",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"login": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Object )",
+				"Params": [
+					[
+						"settings",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"deleteRecord": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Object )",
+				"Params": [
+					[
+						"settings",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"enterSecondaryProduction": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Object )",
+				"Params": [
+					[
+						"settings",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"getErrorInformation": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Object )",
+				"Params": [
+					[
+						"settings",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"fetchDataView": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Object )",
+				"Params": [
+					[
+						"settings",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"findRecord": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Object )",
+				"Params": [
+					[
+						"settings",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"importRecords": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Object )",
+				"Params": [
+					[
+						"settings",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"validateUserName": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Object )",
+				"Params": [
+					[
+						"settings",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"request": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Variant )",
+				"Params": [
+					[
+						"settings",
+						"Variant",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"requestSettings": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"systemTime": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Object )",
+				"Params": [
+					[
+						"settings",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"updateRecord": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Object )",
+				"Params": [
+					[
+						"settings",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"version": {
+			"new()": {
+				"Syntax": "**.new**( *settings* : Object )",
+				"Params": [
+					[
+						"settings",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		}
+	},
+	"addRecord": {},
+	"enterScrap": {},
+	"companies": {},
+	"login": {},
+	"deleteRecord": {},
+	"enterSecondaryProduction": {},
+	"getErrorInformation": {},
+	"fetchDataView": {},
+	"findRecord": {},
+	"importRecords": {},
+	"validateUserName": {},
+	"request": {
+		"secondary()": {
+			"Syntax": "**.secondary**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"addRecord()": {
+			"Syntax": "**.addRecord**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"companies()": {
+			"Syntax": "**.companies**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"addParameterToList()": {
+			"Syntax": "**.addParameterToList**( *fieldName* : Text; *operator* : Text; *parmValue* : Text ) : Collection",
+			"Params": [
+				[
+					"fieldName",
+					"Text",
+					"->"
+				],
+				[
+					"operator",
+					"Text",
+					"->"
+				],
+				[
+					"parmValue",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"importRecords()": {
+			"Syntax": "**.importRecords**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"onData()": {
+			"Syntax": "**.onData**( *request* : Object; *event* : Object ) : Object",
+			"Params": [
+				[
+					"request",
+					"Object",
+					"->"
+				],
+				[
+					"event",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"dataview()": {
+			"Syntax": "**.dataview**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"scrap()": {
+			"Syntax": "**.scrap**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"login()": {
+			"Syntax": "**.login**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"deleteRecord()": {
+			"Syntax": "**.deleteRecord**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"errorMessage()": {
+			"Syntax": "**.errorMessage**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"findRecord()": {
+			"Syntax": "**.findRecord**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"systemTime()": {
+			"Syntax": "**.systemTime**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"onError()": {
+			"Syntax": "**.onError**( *request* : 4D.HTTPRequest; *event* : Object )",
+			"Params": [
+				[
+					"request",
+					"4D.HTTPRequest",
+					"->"
+				],
+				[
+					"event",
+					"Object",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"updateRecord()": {
+			"Syntax": "**.updateRecord**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"validateUsername()": {
+			"Syntax": "**.validateUsername**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"version()": {
+			"Syntax": "**.version**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"onResponse()": {
+			"Syntax": "**.onResponse**( *request* : Object; *event* : Object ) : Object",
+			"Params": [
+				[
+					"request",
+					"Object",
+					"->"
+				],
+				[
+					"event",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"addFieldValueToList()": {
+			"Syntax": "**.addFieldValueToList**( *fieldName* : Text; *fieldValue* : Text )",
+			"Params": [
+				[
+					"fieldName",
+					"Text",
+					"->"
+				],
+				[
+					"fieldValue",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"errorRun()": {
+			"Syntax": "**.errorRun**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"run()": {
+			"Syntax": "**.run**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"SourceFileData": {
+			"Syntax": "SourceFileData : Text"
+		},
+		"settings": {
+			"Syntax": "settings : Object"
+		},
+		"delPropertyName": {
+			"Syntax": "delPropertyName : Text"
+		},
+		"body": {
+			"Syntax": "body : Object"
+		},
+		"options": {
+			"Syntax": "options : Object"
+		},
+		"headers": {
+			"Syntax": "headers : Object"
+		},
+		"ProfileID": {
+			"Syntax": "ProfileID : Text"
+		},
+		"dataArrayName": {
+			"Syntax": "dataArrayName : Text"
+		},
+		"method": {
+			"Syntax": "method : Text"
+		},
+		"apiCall": {
+			"Syntax": "apiCall : 4D.HTTPRequest"
+		},
+		"result": {
+			"Syntax": "result : Object"
+		},
+		"ParameterList": {
+			"Syntax": "ParameterList : Collection"
+		},
+		"InterfaceID": {
+			"Syntax": "InterfaceID : Real"
+		},
+		"apiKey": {
+			"Syntax": "apiKey : Text"
+		},
+		"arrayName": {
+			"Syntax": "arrayName : Text"
+		},
+		"Username": {
+			"Syntax": "Username : Text"
+		},
+		"Password": {
+			"Syntax": "Password : Text"
+		},
+		"CompanyID": {
+			"Syntax": "CompanyID : Text"
+		},
+		"TableName": {
+			"Syntax": "TableName : Text"
+		},
+		"ListOfFieldValues": {
+			"Syntax": "ListOfFieldValues : Collection"
+		},
+		"DataView": {
+			"Syntax": "DataView : Text"
+		},
+		"UniqueID": {
+			"Syntax": "UniqueID : Integer"
+		},
+		"errorID": {
+			"Syntax": "errorID : Real"
+		},
+		"data": {
+			"Syntax": "data : Text"
+		},
+		"apiContentType": {
+			"Syntax": "apiContentType : Text"
+		},
+		"apiMethod": {
+			"Syntax": "apiMethod : Text"
+		},
+		"apiURL": {
+			"Syntax": "apiURL : Text"
+		},
+		"dataObjectName": {
+			"Syntax": "dataObjectName : Text"
+		},
+		"delResultProperty": {
+			"Syntax": "delResultProperty : Text"
+		},
+		"DateFormat": {
+			"Syntax": "DateFormat : Text"
+		},
+		"DataList": {
+			"Syntax": "DataList : Collection"
+		},
+		"ImportID": {
+			"Syntax": "ImportID : Real"
+		}
+	},
+	"requestSettings": {
+		"DataView": {
+			"Syntax": "DataView : Text"
+		},
+		"CompanyID": {
+			"Syntax": "CompanyID : Text"
+		},
+		"apiContentType": {
+			"Syntax": "apiContentType : Text"
+		},
+		"InterfaceID": {
+			"Syntax": "InterfaceID : Real"
+		},
+		"apiKey": {
+			"Syntax": "apiKey : Text"
+		},
+		"apiMethod": {
+			"Syntax": "apiMethod : Text"
+		},
+		"apiURL": {
+			"Syntax": "apiURL : Text"
+		},
+		"ProfileID": {
+			"Syntax": "ProfileID : Text"
+		},
+		"dataArrayName": {
+			"Syntax": "dataArrayName : Text"
+		},
+		"dataObjectName": {
+			"Syntax": "dataObjectName : Text"
+		},
+		"delResultProperty": {
+			"Syntax": "delResultProperty : Text"
+		},
+		"TableName": {
+			"Syntax": "TableName : Text"
+		},
+		"ListOfFieldValues": {
+			"Syntax": "ListOfFieldValues : Collection"
+		},
+		"UniqueID": {
+			"Syntax": "UniqueID : Real"
+		},
+		"SourceFileData": {
+			"Syntax": "SourceFileData : Text"
+		},
+		"DateFormat": {
+			"Syntax": "DateFormat : Text"
+		},
+		"DataList": {
+			"Syntax": "DataList : Collection"
+		},
+		"ImportID": {
+			"Syntax": "ImportID : Real"
+		},
+		"errorID": {
+			"Syntax": "errorID : Real"
+		},
+		"Username": {
+			"Syntax": "Username : Text"
+		},
+		"Password": {
+			"Syntax": "Password : Text"
+		},
+		"ParameterList": {
+			"Syntax": "ParameterList : Collection"
+		},
+		"errorURL": {
+			"Syntax": "errorURL : Text"
+		}
+	},
+	"systemTime": {},
+	"updateRecord": {},
+	"version": {}
+}
